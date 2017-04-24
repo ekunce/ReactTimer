@@ -4,7 +4,9 @@ var Nav = require('Nav')
 var Main = (props) => {
     return (
         <div>          
-            <Nav/>  
+            <Nav/>
+            <p>Main.jsx redered</p>  
+            {props.children}
         </div>
     )    
 }
